@@ -15,14 +15,14 @@ To install and run the server, follow these steps:
    ```
 3. Run the server:
    ```
-   uvicorn main:app --reload
+   uvicorn main:app --reload --port 8001
    ```
 
 ### Frontend
 
 To install and run the frontend, follow these steps:
 
-1. Navigate to the `front` directory.
+1. Navigate to the `front/calculator` directory.
 2. Install the required Node.js packages using npm:
    ```
    npm install
