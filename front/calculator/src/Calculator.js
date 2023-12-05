@@ -38,6 +38,8 @@ const Calculator = () => {
   return (
     <div className="container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       <div className="calculator" style={{ fontSize: '2em' }}>
+      <div style={{ height: '20px' }}></div>
+
         <form>
           <input type="text" value={result} style={{ width: '100%', height: '2em' }} />
         </form>
